@@ -1,26 +1,23 @@
 <audio loop autoplay>
-	<source src="./assets/music.mp3" type="audio/mpeg">
+	<source src="/music.mp3" type="audio/mpeg" />
 </audio>
 
 <audio loop autoplay>
-	<source src="./assets/candyland.mp3" type="audio/mpeg">
+	<source src="/candyland.mp3" type="audio/mpeg" />
 </audio>
 
-<h1>
-	Touch grass.
-</h1>
+<h1>Touch grass.</h1>
 
 <style>
 	:global(body) {
-		background-image: url("./assets/outside.jpg");
+		background-image: url("/outside.jpg");
 		background-repeat: repeat;
 		color: white;
 	}
 
-
 	@font-face {
-		font-family: 'Comic Sans MS';
-		src: url("./assets/comicsans.ttf");
+		font-family: "Comic Sans MS";
+		src: url("/comicsans.ttf");
 	}
 
 	h1 {
@@ -33,7 +30,7 @@
 		text-align: center;
 		color: #b00b69;
 		animation: text 5s infinite;
-		font-family: 'Comic Sans MS';
+		font-family: "Comic Sans MS";
 	}
 
 	@keyframes text {

@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.github.akisblack.touchgrass',
-  appName: 'touchgrass',
+  appName: 'Touch Grass',
   webDir: 'dist',
   bundledWebRuntime: false
 };
