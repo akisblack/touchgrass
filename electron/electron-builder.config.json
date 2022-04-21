@@ -9,24 +9,12 @@
     "capacitor.config.*",
     "app/**/*"
   ],
-  "publish": {
-    "provider": "github"
-  },
-  "nsis": {
-    "allowElevation": true,
-    "oneClick": false,
-    "allowToChangeInstallationDirectory": true
-  },
   "win": {
-    "target": ["nsis", "portable"],
+    "target": "nsis",
     "icon": "assets/appIcon.ico"
   },
-  "mac": {
-    "target": ["dmg", "zip"],
-    "icon": "assets/appIcon.png"
-  },
   "linux": {
-    "target": ["AppImage", "tar.gz"],
+    "target": "AppImage",
     "icon": "assets/appIcon.png"
   }
 }
