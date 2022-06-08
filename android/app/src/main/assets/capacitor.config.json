@@ -1,6 +1,0 @@
-{
-	"appId": "io.github.akisblack.touchgrass",
-	"appName": "touchgrass",
-	"webDir": "dist",
-	"bundledWebRuntime": false
-}
